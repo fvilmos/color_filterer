@@ -3,7 +3,7 @@
 
 ## About
 
-Frames grabbed from an RGB(BGR) stream are converted in HSV format. With help of this application the right color space can be determinated, usefull for applications (i.e. skin filtering / detection) where a special color is needed to be tracked.
+Frames grabbed from an RGB(BGR) stream are converted in HSV format. With the help of this application the right color space can be determined, useful for applications (i.e. skin filtering/detection) where a special color is needed to be tracked.
 
 ## Usage
 
@@ -13,7 +13,7 @@ python ./color_filterer.py
 or 
 python ./color_filterer.py 0
 ```
-First command line argumet defines the camera ID to use. By default, ID is zero, corresponds to the web cam connected to USB
+The first command-line argument defines the camera ID to use. By default, ID is zero, corresponds to the webcam connected to USB
 
 ## Output / Gui
 Use "q" from the keyboard to exit from application.
@@ -36,6 +36,6 @@ Use "q" from the keyboard to exit from application.
 
 ## Resources
 
-[Original idea](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_colorspaces/py_colorspaces.html#converting-colorspaces) is part of the OpenCV python tutorials, credits goes there.
+[Original idea](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_colorspaces/py_colorspaces.html#converting-colorspaces) is part of the OpenCV python tutorials, credits go there.
 
 /Enjoy.
